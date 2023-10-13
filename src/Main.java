@@ -11,7 +11,11 @@ public class Main {
         List<Integer> arr = new ArrayList<>(Arrays.asList(-4, 3, -9, 0, 4, 1));
         AlgorthimsLvL1.plusMinus(arr);
 
+        List<Integer> arr1 = new ArrayList<>(Arrays.asList(1,3,5,7,9));
+        AlgorthimsLvL1.miniMaxSum(arr1);
 
+
+        AlgorthimsLvL1.randomNum(4,2);
     }
 
 }
